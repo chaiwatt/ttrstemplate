@@ -74,10 +74,12 @@
 
   // Mobile Navigation
   if ($('.nav-menu').length) {
-    var $mobile_nav = $('.nav-menu').clone().prop({
+    var mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
     });
-    $('body').append($mobile_nav);
+    var mobile_nav = $(".nav-menu").clone().prop({ class: "mobile-nav d-lg-none" });
+    mobile_nav = mobile_nav.append('<li><a href="#" id="thaifont" style="color: #fff;" class="btn-get-started animate__animated animate__fadeInUp scrollto"><i class="icofont-login"></i>  เข้าสู่ระบบ</a></li>');
+    $('body').append(mobile_nav);
     $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
     $('body').append('<div class="mobile-nav-overly"></div>');
 

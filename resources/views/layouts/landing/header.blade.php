@@ -7,7 +7,7 @@
         </div>
   
         <nav class="nav-menu float-right d-none d-lg-block " >
-          <ul >
+          <ul id="menulist">
             <li class="active "><a id="thaifont" href="#">หน้าหลัก</a></li>
             <li><a id="thaifont" href="#">ข่าวสาร</a></li>
             <li><a id="thaifont" href="#">ประกาศ</a></li>
@@ -22,10 +22,10 @@
                 </ul>
             </li>
 
-            <li>
+            {{-- <li>
               <a href="#" id="thaifont" style="color: #fff;" class="btn-get-started animate__animated animate__fadeInUp scrollto"><i class="icofont-login"></i>  เข้าสู่ระบบ</a>
             
-            </li>
+            </li> --}}
           </ul>
         </nav><!-- .nav-menu -->
   
