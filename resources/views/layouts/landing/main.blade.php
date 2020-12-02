@@ -34,8 +34,12 @@
   @include('layouts.landing.news')
   <!-- End News Section -->
 
+  
 
-
+  
+  <!-- ======= Cookie ======= -->
+  @include('layouts.landing.cookie')
+  <!-- End Cookie -->
   
   <!-- ======= Footer ======= -->
   @include('layouts.landing.footer')
