@@ -96,30 +96,26 @@
             <div class="col-lg-9">
 
                 <!-- the actual blog post: title/author/date/content -->
-                <h1 id="thaifont">หัวข้อ ข่าวสาร</h1>
-
-                <p class="lead"><img src="{{asset('assets/landing/img/user/user-img.jpg')}}" alt=""> BY <a href="">Admin</a>
-                </p>
-
-
-
-
+                <h1 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
                 <hr>
-                <p><i class="fa fa-calendar"></i> Posted on August 24, 2014 at 9:00 PM</p>
-                <p><i class="fa fa-tags"></i> Tags: 
-                    <a href=""><span class="badge badge-info">หน้าหลัก</span></a> 
-                    <a href=""><span class="badge badge-info">ข่าวสาร</span></a> 
-                    <a href="" ><span class="badge badge-info active">หัวข้อข่าวสาร</span></a> 
+                <p><i class="icofont-calendar"></i> Posted: August 24, 2014 &nbsp;<i class="icofont-clock-time"></i>Time: 9:00 PM &nbsp; <i class="icofont-eye"></i> Hits: 50</p>
+                
+              
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <i class="icofont-tags mt-2"></i> Tags: &nbsp;
+                    <li class="breadcrumb-item"><a href="#">หน้าหลัก</a></li>
+                    <li class="breadcrumb-item"><a href="#">ข่าวสาร</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</li>
+                  </ol>
+                </nav>
                 </p>
 
                 <hr>
                 <img src="http://placehold.it/1920x1080" class="img-responsive">
                 <hr>
-                <p class="lead">Welcome to Bootstrap Blog Template! This is a blog template example, built with Bootstrap. Contains "tools" that would be needed in a post.</p>
-                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.</p>
-                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor. Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.</p>
-                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor. Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.</p>
-                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor. Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.</p>
+                
+                <p id="fs-16">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ “โครงการพัฒนาฐานข้อมูลสมุนไพรเพื่อการใช้ประโยชน์ทางเครื่องสำอางและผลิตภัณฑ์สมุนไพรสำหรับใช้ภายนอก” ว่า สวทช. เป็นหน่วยงานภายใต้กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) มีภารกิจที่สำคัญด้านการพัฒนาวิจัย ซึ่งรวมถึงการวิจัย คิดค้นผลงานที่มีการนำพืชสมุนไพรมาใช้เป็นวัตถุดิบตั้งต้น โดยใช้องค์ความรู้ เทคโนโลยีและนวัตกรรมขั้นสูงมาใช้ ซึ่งดำเนินการโดยศูนย์วิจัยแห่งชาติ ภายใต้ สวทช. อาทิ ศูนย์นาโนเทคโนโลยีแห่งชาติ รวมไปถึงการกำหนดกลุ่มเทคโนโลยีเป้าหมาย (Technology Development Group: TDG) ด้านเวชสำอาง (TDG: Cosmeceuticals) ซึ่งเป็นโปรแกรมวิจัยที่มุ่งเน้นการพัฒนาผลิตภัณฑ์เวชสำอางที่พัฒนาเพื่อเพิ่มประสิทธิภาพของผลิตภัณฑ์ รวมถึงการพัฒนาเทคโนโลยีการสกัดแบบ Green extraction หากแต่ความต้องการสำคัญของการพัฒนาผลิตภัณฑ์คือ แหล่งของข้อมูลที่มีความน่าเชื่อถือเกี่ยวกับสมุนไพรที่สามารถนำมาใช้ประโยชน์สำหรับการพัฒนาผลิตภัณฑ์เครื่องสำอางและผลิตภัณฑ์สมุนไพรสำหรับใช้ภายนอก ซึ่งประเทศไทยมีเพียง 1 ฐานข้อมูล คือ ฐานข้อมูลสมุนไพรไทยที่ใช้ทางเครื่องสําอาง (Thai Medicinal Plants for Cosmetics Database; TMPCD) ของกลุ่มควบคุมเครื่องสำอาง สำนักควบคุมเครื่องสำอางและวัตถุอันตราย สำนักงานคณะกรรมการอาหารและยา (อย.)</p>
 
 
                 <!-- the comment box -->
@@ -129,75 +125,54 @@
                         <div class="form-group">
                             <textarea class="form-control" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-reply"></i> Submit</button>
+                        <button type="submit" class=" btn btn-lg btn-info"><i class="fa fa-reply"></i> คอมเมนต์</button>
                     </form>
                 </div>
 
                 <hr>
 
                 <!-- the comments -->
-                <h3><i class="fa fa-comment"></i> User One says:
-                    <small> 9:41 PM on August 24, 2014</small>
-                </h3>
-                <p>Excellent post! Thank You the great article, it was useful!</p>
+                <div class="container">
+                  <div class="col-sm-12">
+                      <div class="row">
+                        <div class="col-sm-1">
+                          <h3 class="ml-2"><img class="rounded-circle" src="{{asset('assets/landing/img/user/c4.jpg')}}" alt="">
+                          </div>
+                          <div class="col-sm-6 ml-3">
+                            <b> User One says:</b>
+                            <small> 9:41 PM </small>
+                          </h3>
+                          <p>Excellent post! Thank You the great article, it was useful!</p>
+                        </div>
+                    </div>
+                    <hr>
+                  </div>
 
-                <h3><i class="fa fa-comment"></i> User Two says:
-                    <small> 9:47 PM on August 24, 2014</small>
-                </h3>
-                <p>Excellent post! Thank You the great article, it was useful!</p>
-
+                  <div class="col-sm-12">
+                      <div class="row">
+                        <div class="col-sm-1">
+                          <h3 class="ml-2"><img class="rounded-circle" src="{{asset('assets/landing/img/user/next.jpg')}}" alt="">
+                          </div>
+                          <div class="col-sm-6 ml-3">
+                            <b> User Two says:</b>
+                            <small> 9:41 PM </small>
+                          </h3>
+                          <p>Excellent post! Thank You the great article, it was useful!</p>
+                        </div>
+                    </div>
+                    <hr>
+                  </div>
+                 </div>
             </div>
 
             <div class="col-lg-3">
-             
                 <!-- /well -->
-                <div class="well">
-                    <h4><i class="fa fa-tags"></i> Popular Tags:</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href=""><span class="badge badge-info">Windows 8</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">C#</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">Windows Forms</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">WPF</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href=""><span class="badge badge-info">Bootstrap</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">Joomla!</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">CMS</span></a>
-                                </li>
-                                 <li><a href=""><span class="badge badge-info">Java</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+              
 			
-                <!-- /well -->
-                <div class="well">
-                    <h4><i class="fa fa-fire"></i> Popular Posts:</h4>
-					<ul>
-                    <li><a href="">WPF vs. Windows Forms-Which is better?</a></li>
-					<li><a href="">How to create responsive website with Bootstrap?</a></li>
-					<li><a href="">The best Joomla! templates 2014</a></li>
-					<li><a href="">ASP .NET cms list</a></li>
-			        <li><a href="">C# Hello, World! program</a></li>
-					<li><a href="">Java random generator</a></li>
-					</ul>
-                </div>
-                <!-- /well -->
-
+             
 				<!-- /well -->
                 <div class="well">
-                    <h4><i class="fa fa-book"></i> Featured books:</h4>
+                    <h4><i class="fa fa-book"></i> ข่าวสารที่น่าสนใจ :</h4>
                     <div class="row">
 
                             <div class="col-lg-12">
@@ -208,7 +183,7 @@
 						<div class="caption">
 							<div class="blur"></div>
 							<div class="caption-text">
-								<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">Book 1</h3>
+								<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:13px;  text-overflow: ellipsis;">Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</h3>
 								<p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
 								<a class=" btn btn-default" href="#"><i class="fa fa-plus"></i> INFO</span></a>
 
@@ -226,7 +201,25 @@
 						<div class="caption">
 							<div class="blur"></div>
 							<div class="caption-text">
-								<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">Book 2</h3>
+								<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:13px; ">Book 2</h3>
+								<p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+								<a class=" btn btn-default" href="#"><i class="fa fa-plus"></i> INFO</span></a>
+
+							</div>
+						</div>
+					</div>
+
+	    </div>
+  
+      <div class="col-lg-12">
+    				<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+						<p style="text-align:center; margin-top:20px;">
+							<img src="http://placehold.it/500x330" class="img-responsive" alt="">
+						</p>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:13px;">Book 2</h3>
 								<p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
 								<a class=" btn btn-default" href="#"><i class="fa fa-plus"></i> INFO</span></a>
 
