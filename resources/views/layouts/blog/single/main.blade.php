@@ -22,7 +22,7 @@
   <!-- End Header -->
 
 	<!-- ======= Header ======= -->
-	@include('layouts.blog.content')
+	@include('layouts.blog.single.content')
   <!-- End Header -->
 
 

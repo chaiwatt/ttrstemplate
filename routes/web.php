@@ -13,12 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
+
+
+
 Route::get('/', function () {
     return view('landing.index');
-});
+})->name('home');
+
+Route::get('/single', function () {
+    return view('landing.single');
+})->name('single');
+
 Route::get('/blog', function () {
     return view('landing.blog');
-});
+})->name('blog');
+
 Route::get('/test', function () {
     return view('landing.test');
+});
+Route::get('/test2', function () {
+    return view('landing.test2');
 });

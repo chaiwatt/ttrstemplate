@@ -8,8 +8,8 @@
   
         <nav class="nav-menu float-right d-none d-lg-block " >
           <ul id="menulist">
-            <li class="active "><a id="thaifont" href="#">หน้าหลัก</a></li>
-            <li><a id="thaifont" href="#">ข่าวสาร</a></li>
+            <li class="active "><a id="thaifont" href="{{ route('home') }}">หน้าหลัก</a></li>
+            <li><a id="thaifont" href="{{ route('blog') }}">ข่าวสาร</a></li>
             <li><a id="thaifont" href="#">ประกาศ</a></li>
             <li><a id="thaifont" href="#">งานบริการ</a></li>
             <li><a id="thaifont" href="#">เกี่ยวกับเรา</a></li>
