@@ -52,8 +52,8 @@
               
               <div class="social-links float-right" >
                
-                <a href="#" id="thaifont" class="linkedin"><i class="icofont-login"></i>เข้าสู่ระบบ</a>
-                <a href="#" id="thaifont" class="linkedin"><i class="icofont-address-book"></i>สมัครสมาชิก</a>
+                <a href="#" class="linkedin sarabun"><i class="icofont-login"></i>เข้าสู่ระบบ</a>
+                <a href="#" class="linkedin sarabun"><i class="icofont-address-book"></i>สมัครสมาชิก</a>
               </div>
               
             </div>
@@ -69,17 +69,17 @@
     
           <nav class="nav-menu float-right d-none d-lg-block " >
             <ul id="menulist">
-              <li><a id="thaifont" href="#">หน้าหลัก</a></li>
-              <li class="active "><a id="thaifont" href="#">ข่าวสาร</a></li>
-              <li><a id="thaifont" href="#">ประกาศ</a></li>
-              <li><a id="thaifont" href="#">งานบริการ</a></li>
-              <li><a id="thaifont" href="#">เกี่ยวกับเรา</a></li>
-              <li><a id="thaifont" href="#">ติดต่อเรา</a></li>
+              <li><a class="sarabun" href="#">หน้าหลัก</a></li>
+              <li class="active"><a class="sarabun" href="#">ข่าวสาร</a></li>
+              <li><a class="sarabun" href="#">ประกาศ</a></li>
+              <li><a class="sarabun" href="#">งานบริการ</a></li>
+              <li><a class="sarabun" href="#">เกี่ยวกับเรา</a></li>
+              <li><a class="sarabun" href="#">ติดต่อเรา</a></li>
              
                <li class="drop-down"><a href=""><img src="{{asset('assets/landing/img/Thai_Flag.png')}}" alt="" srcset=""></a>
                 <ul>
-                    <li><a id="thaifont" href="#"><img src="{{asset('assets/landing/img/Thai_Flag.png')}}" alt="" srcset=""> ภาษาไทย</a></li>
-                    <li><a id="thaifont" href="#"><img src="{{asset('assets/landing/img/Us_Flag.png')}}" alt="" srcset=""> ภาษาอังกฤษ</a></li>
+                    <li><a class="sarabun" href="#"><img src="{{asset('assets/landing/img/Thai_Flag.png')}}" alt="" srcset=""> ภาษาไทย</a></li>
+                    <li><a class="sarabun" href="#"><img src="{{asset('assets/landing/img/Us_Flag.png')}}" alt="" srcset=""> ภาษาอังกฤษ</a></li>
                   </ul>
               </li>
             </ul>
@@ -92,7 +92,7 @@
         <div class="container">
     
           <div class="section-title">
-            <h2 id="thaifont">ข่าวสารยอดนิยม</h2>
+            <h2 class="sarabun">ข่าวสารยอดนิยม</h2>
           </div>
         
     
@@ -100,10 +100,10 @@
               <div class="row">
                   <div class="col-md-5"> <img src="http://placehold.it/445x296" class="img-responsive"></div>
                   <div class="col-md-7">
-                       <h1 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
+                       <h1 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
                        <i class="icofont-calendar"></i> Posted: August 24, 2014
                        <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพื่มเต็ม</a>
+                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพิ่มเติม</a>
                 </div>
               </div>
               <hr>
@@ -112,10 +112,10 @@
               <div class="row">
                   <div class="col-md-5"> <img src="http://placehold.it/445x296" class="img-responsive"></div>
                   <div class="col-md-7">
-                       <h1 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
+                       <h1 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
                        <i class="icofont-calendar"></i> Posted: August 24, 2014
                        <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพื่มเต็ม</a>
+                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพิ่มเติม</a>
                 </div>
               </div>
               <hr>
@@ -126,10 +126,10 @@
                       <img src="http://placehold.it/445x296" class="img-responsive">
                   </div>
                   <div class="col-md-7">
-                       <h1 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
+                       <h1 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h1>
                        <i class="icofont-calendar"></i> Posted: August 24, 2014
                        <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพื่มเต็ม</a>
+                       <a class="btn btn-lg btn-outline-info" href="#">ดูเพิ่มเติม</a>
                 </div>
               </div>
               <hr>
@@ -201,8 +201,9 @@
                
                   <a href="index.html"><img src="{{asset('assets/landing/img/logo.png')}}" class="w-75" alt="" class="img-fluid"></a>
              
-                <p id="thaifont">
-                  111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120
+              
+                  <p class="sarabun">
+                    <span class="sarabun">111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120</span> 
                  
           
                 </p>

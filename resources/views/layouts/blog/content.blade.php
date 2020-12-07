@@ -2,7 +2,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2 id="thaifont">ข่าวสารยอดนิยม</h2>
+        <h2 class="sarabun">ข่าวสารยอดนิยม</h2>
       </div>
     
 
@@ -10,10 +10,10 @@
           <div class="row">
               <div class="col-md-5"> <img src="http://placehold.it/445x296" class="img-responsive"></div>
               <div class="col-md-7">
-                   <h3 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
+                   <h3 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
                    <i class="icofont-calendar"></i> Posted: August 24, 2014
                    <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพื่มเต็ม</a>
+                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพิ่มเติม</a>
             </div>
           </div>
           <hr>
@@ -23,10 +23,10 @@
           <div class="row">
               <div class="col-md-5"> <img src="http://placehold.it/445x296" class="img-responsive"></div>
               <div class="col-md-7">
-                   <h3 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
+                   <h3 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
                    <i class="icofont-calendar"></i> Posted: August 24, 2014
                    <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพื่มเต็ม</a>
+                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพิ่มเติม</a>
             </div>
           </div>
           <hr>
@@ -36,10 +36,10 @@
           <div class="row">
               <div class="col-md-5"> <img src="http://placehold.it/445x296" class="img-responsive"></div>
               <div class="col-md-7">
-                   <h3 id="thaifont">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
+                   <h3 class="sarabun">สวทช. จับมือ 3 พันธมิตรสร้างฐานข้อมูลสมุนไพร หนุนเอกชนใช้งานด้านเครื่องสำอาง</h3>
                    <i class="icofont-calendar"></i> Posted: August 24, 2014
                    <p class="mt-2">ดร.วรรณี ฉินศิริกุล ผู้อำนวยการศูนย์นาโนเทคโนโลยีแห่งชาติ สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) กล่าวในการเปิดงานพิธีลงนามในบันทึกความร่วมมือ...</p>
-                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพื่มเต็ม</a>
+                   <a class="btn  btn-info" href="{{route('single')}}">ดูเพิ่มเติม</a>
             </div>
           </div>
           <hr>

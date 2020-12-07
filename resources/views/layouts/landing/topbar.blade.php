@@ -14,8 +14,8 @@
         
         <div class="social-links float-right" >
          
-          <a href="#" id="thaifont" class="linkedin"><i class="icofont-login"></i>เข้าสู่ระบบ</a>
-          <a href="#" id="thaifont" class="linkedin"><i class="icofont-address-book"></i>สมัครสมาชิก</a>
+          <a href="#" class="linkedin sarabun"><i class="icofont-login"></i>เข้าสู่ระบบ</a>
+          <a href="#" class="linkedin sarabun"><i class="icofont-address-book"></i>สมัครสมาชิก</a>
         </div>
         
       </div>
