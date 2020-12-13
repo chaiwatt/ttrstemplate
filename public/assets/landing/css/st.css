@@ -69,3 +69,304 @@
 	line-height: 2em;
 }
 
+.boxContainer{
+    width: 350px;
+    height: 52px;
+    border: 2px solid #428bca;
+    padding: 0px 10px;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+.elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'Sarabun' !important;
+    color: #1c2023;
+    font-weight: 500;
+}   
+.search:focus{
+    outline: none;
+}
+.icofont-search{
+    font-size: 20px;
+    color: #428bca;
+}
+
+
+
+
+
+
+
+.panel-group {
+    margin-bottom: 0;
+}
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+}
+.panel-group .panel .panel-heading {
+    padding: 0;
+}
+.panel-group .panel .panel-heading h4 a {
+    background: #f6f9fc;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.15s all ease-in-out;
+}
+.panel-group .panel .panel-heading h4 a:hover, .panel-group .panel .panel-heading h4 a:not(.collapsed) {
+    /*background: #fff;*/
+    transition: 0.15s all ease-in-out;
+}
+.panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
+    content: "-";
+    font-size: 30px;
+    line-height: 10px;
+}
+.panel-group .panel .panel-heading h4 a i {
+    color: #999;
+    font-size: 12px;
+}
+.panel-group .panel .panel-body {
+    padding-top: 0;
+}
+.panel-group .panel .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
+}
+.panel-group .panel + .panel {
+    border-top: none;
+    margin-top: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.contact .info-box {
+    color: #444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: #428bca;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #9eccf4;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .contact .php-email-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+  }
+  
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  
+  .contact .php-email-form input {
+    padding: 20px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type="submit"] {
+    background: #428bca;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    background: #6aa3d5;
+  }
+  
+  .detail{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  
+  .bxl-facebook::before{
+    margin-top: 10px;
+  }
+  .share-button { 
+    display: inline-block;
+    outline: none; 
+  }
+.contact-p{
+  margin: 0 60px;
+}
+
+
+
+  @media (min-width:1366px){
+    .fb-share{
+      float: right;
+      
+    }
+  }
+
+  
+.fb-share-button {
+  background: #3b5998;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px 8px;
+  display: inline-block;
+  position: static;
+  margin-left: 2px;
+}
+
+.fb-share-button:hover {
+  cursor: pointer;
+  background: #213A6F
+}
+
+.fb-share-button svg {
+  width: 18px;
+  fill: white;
+  vertical-align: middle;
+  border-radius: 2px
+}
+
+.fb-share-button span {
+  vertical-align: middle;
+  color: white;
+  font-size: 12px;
+  padding: 0 3px
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+}
+
+.tw-share-button {
+  background: #26a7de;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px 8px;
+  display: inline-block;
+  position: static;
+  margin-left: 2px;
+}
+
+.tw-share-button:hover {
+  cursor: pointer;
+  background: #3562c2
+}
+
+.tw-share-button svg {
+  width: 18px;
+  fill: white;
+  vertical-align: middle;
+  border-radius: 2px
+}
+
+.tw-share-button span {
+  vertical-align: middle;
+  color: white;
+  font-size: 12px;
+  padding: 0 3px
+}

@@ -35,6 +35,9 @@ Route::get('/blog', function () {
 Route::get('/test', function () {
     return view('landing.test');
 });
-Route::get('/test2', function () {
-    return view('landing.test2');
+Route::get('/faq', function () {
+    return view('landing.faq');
+});
+Route::get('/contact', function () {
+    return view('landing.contact');
 });

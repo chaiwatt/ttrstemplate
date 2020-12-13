@@ -24,7 +24,7 @@
   <!-- End Header -->
 
 	<!-- ======= Header ======= -->
-	@include('layouts.blog.content')
+	@include('layouts.contact.content')
   <!-- End Header -->
 
 

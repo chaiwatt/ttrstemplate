@@ -29,7 +29,7 @@
             <br>
             อาทิตย์: <strong> ปิดทำการ</strong> 
 
-            <h4 class="mt-3">เวลาทำการ</h4>
+            <h4 class="mt-3">โทรฯ</h4>
             โทรศัพท์: <strong>0-2564-7000, 0-2564-8000</strong>
             <br>
             แฟ็กซ์: <strong>0-2564-7001-5</strong>
@@ -49,7 +49,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>ศูนย์ช่วยเหลือ</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>หากคุณต้องการความช่วยเหลือเกี่ยวกับปัญหาต่างๆ ติดต่อเพื่อรับการสนับสนุน</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
