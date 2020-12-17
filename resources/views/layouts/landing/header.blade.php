@@ -10,7 +10,7 @@
           <ul id="menulist">
             <li class="active "><a class="sarabun" href="{{ route('home') }}">หน้าหลัก</a></li>
             <li><a class="sarabun" href="{{ route('blog') }}">ข่าวสาร</a></li>
-            <li><a class="sarabun" href="#">ประกาศ</a></li>
+            <li><a class="sarabun" href="{{ route('announce') }}">ประกาศ</a></li>
             <li><a class="sarabun" href="#">งานบริการ</a></li>
             <li><a class="sarabun" href="#">เกี่ยวกับเรา</a></li>
             <li><a class="sarabun" href="#">ติดต่อเรา</a></li>

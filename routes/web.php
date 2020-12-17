@@ -41,3 +41,6 @@ Route::get('/faq', function () {
 Route::get('/contact', function () {
     return view('landing.contact');
 });
+Route::get('/announce', function () {
+    return view('landing.announce');
+})->name('announce');

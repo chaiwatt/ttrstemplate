@@ -294,7 +294,6 @@
   @media (min-width:1366px){
     .fb-share{
       float: right;
-      
     }
   }
 
@@ -369,4 +368,33 @@ SVG Icons - svgicons.sparkk.fr
   color: white;
   font-size: 12px;
   padding: 0 3px
+}
+.search-announce{
+  float:right;
+  font-size: 16px;
+}
+.search-announce-box{
+  width: 200px; 
+  border-radius: 30px;
+  border: none;
+  border: 2px solid #428bca;
+  padding: 0px 10px;
+}
+.search-announce-box:focus{
+  outline: none;
+}
+.announce-hr{
+  margin: 1rem;
+  border-top: 1px dashed rgba(0,0,0,.1);
+}
+.announce-p{
+  padding: 0px 20px;
+}
+.icofont-ui-folder{
+  color: #428bca;
+}
+@media (max-width:400px){
+  .search-announce-box{
+    width: 350px;
+  }
 }
