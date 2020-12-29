@@ -398,3 +398,13 @@ SVG Icons - svgicons.sparkk.fr
     width: 350px;
   }
 }
+.boxed-layouts{
+box-shadow: 0 0 5px #ccc;
+max-width: 1170px;
+margin: 0 auto;
+background-color: #fff;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
